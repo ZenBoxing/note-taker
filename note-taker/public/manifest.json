@@ -1,23 +1,17 @@
 {
   "name": "Note Taker",
   "version": "1.0",
-  "manifest_version": "3",
+  "manifest_version": 3,
   "action":{
     "default_popup":"index.html",
     "default_title":"Open the popup"
   },
-  "icons": [
+  "icons": 
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "NoteTakerIcon1.png",
-      "type": "image/png",
-      "sizes": "128x128"
+      "128": "NoteTakerIcon1.png",
+      "48": "NoteTakerIcon48.png"
     }
-  ],
+  ,
   "permissions": [
     "tabs"
   ]
